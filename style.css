@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f3f5fc;
+}
+
+.logo_alura {
+    position: absolute;
+    display: inline;
+    top: 40px;
+    left: 5%;
+}
+
+main {
+    height: 900px;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+main .blocoEntrada {
+    display: inline-block;
+    width: calc(92% - 480px);
+    height: 820px;
+    margin: 40px;
+}
+
+.blocoEntrada textarea {
+    display: inline-block;
+    width: 680px;
+    height: 600px;
+    margin: 2em 0 0 3em;
+    font-size: 32px;
+    color: #0A3871;
+    line-height: 150%;
+    resize: none;
+    border: none;
+    background: border-box;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.botoes {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.info {
+    float: left;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+}
+
+.blocoEntrada div p {
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 16px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.botaoCriptografar {
+    display: inline-block;
+    background-color: #0A3871;
+    color: white;
+    width: 45%;
+    height: 70px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 12px;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+}
+
+.botaoDescriptografar {
+    display: inline-block;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 45%;
+    height: 70px;
+    font-family: 'Inter';
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 12px;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    line-height: 19px;
+    text-align: center;
+}
+
+.saida {
+    vertical-align: bottom;
+    display: inline-block;
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin: 40px;
+    width: 400px;
+    height: 820px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+}
+
+.menino_lupa {
+    width: 336px;
+    height: 304px;
+    margin-top: 150px;
+}
+
+.saida div h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+    margin: 1em 0;
+}
+
+.saida div p {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.saida_crip_botao {
+    vertical-align: bottom;
+    display: none;
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin: 40px;
+    width: 400px;
+    height: 820px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+}
+
+.saida_crip_botao textarea {
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    margin-top: 32px;
+    resize: none;
+    border: none;
+    background: border-box;
+    outline: none;
+    width: 320px;
+    height: 650px;
+}
+
+.botaoCopiar {
+    display: inline-block;
+    height: 67px;
+    width: 336px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: white;
+    padding: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}

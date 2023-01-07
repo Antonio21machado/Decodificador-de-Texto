@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo_alura" src="./assets/logo_alura.svg" alt="Logo Alura">
+    </header>
+    
+    <main>
+        <div class="blocoEntrada">
+            <textarea id="entradaTexto" placeholder="Digite seu texto"></textarea>
+
+            <div class="botoes">
+                <img class="info" src="./assets/icon_info.svg" alt="Icone Informação">
+                <p>Apenas letras minúsculas e sem acento.</p>
+                <button onclick="criptografar() "class="botaoCriptografar">Criptografar</button>
+                <button onclick="descriptografar() "class="botaoDescriptografar">Descriptografar</button>
+            </div>
+        </div>
+            <div class="saida">
+                <img class="menino_lupa" src="./assets/menino_lupa.svg" alt="Menino com lupa">
+                <div>
+                    <h1>Nenhuma mensagem encontrada</h1>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+
+            <div class="saida_crip_botao">
+                <textarea id="saidaTexto"></textarea>
+                <button onclick="copiar()" class="botaoCopiar">Copiar</button>
+            </div>
+     </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
